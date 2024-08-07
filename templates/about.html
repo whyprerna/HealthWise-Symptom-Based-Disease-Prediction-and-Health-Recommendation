@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> <!-- Include your custom stylesheet -->
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+          <img class="myimg" src="{{ url_for('static', filename='logo_hospital.png') }}" alt="HealthWise Logo">
+          HealthWise
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/limitations">Limitations</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5 pt-5">
+      <h2 class="text-center">About HealthWise</h2>
+      <p>HealthWise is a cutting-edge web application designed to help you manage and improve your health. Our platform integrates advanced technology to provide a range of features that cater to your well-being needs.</p>
+
+      <h3>Features</h3>
+      <ul>
+        <li><b>Smart Disease Prediction:</b> Accurately identifies potential health issues based on your symptoms.</li>
+        <li><b>Personalized Medicine Advice:</b> Provides tailored medication suggestions for your recovery.</li>
+        <li><b>Custom Diet Plans:</b> Recommends diet plans aligned with your health goals and needs.</li>
+        <li><b>Effective Precautions:</b> Offers actionable steps to prevent complications and maintain health.</li>
+        <li><b>Dynamic Workout Suggestions:</b> Gives fitness recommendations to keep you active and enhance wellness.</li>
+      </ul>
+
+      <h3>Goal</h3>
+      <p>The goal of developing HealthWise is to empower individuals with reliable health insights and personalized recommendations, making health management accessible and user-friendly. We aim to improve overall well-being through innovative technology and comprehensive support.</p>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
+

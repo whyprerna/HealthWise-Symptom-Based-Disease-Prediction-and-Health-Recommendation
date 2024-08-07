@@ -1,0 +1,206 @@
+,Disease,Medication
+0,Fungal infection,Antifungal Cream
+1,Fungal infection,Fluconazole
+2,Fungal infection,Terbinafine
+3,Fungal infection,Clotrimazole
+4,Fungal infection,Ketoconazole
+5,Allergy,Antihistamines
+6,Allergy,Decongestants
+7,Allergy,Epinephrine
+8,Allergy,Corticosteroids
+9,Allergy,Immunotherapy
+10,GERD,Proton Pump Inhibitors (PPIs)
+11,GERD,H2 Blockers
+12,GERD,Antacids
+13,GERD,Prokinetics
+14,GERD,Antibiotics
+15,Chronic cholestasis,Ursodeoxycholic acid
+16,Chronic cholestasis,Cholestyramine
+17,Chronic cholestasis,Methotrexate
+18,Chronic cholestasis,Corticosteroids
+19,Chronic cholestasis,Liver transplant
+20,Drug Reaction,Antihistamines
+21,Drug Reaction,Epinephrine
+22,Drug Reaction,Corticosteroids
+23,Drug Reaction,Antibiotics
+24,Drug Reaction,Antifungal Cream
+25,Peptic ulcer disease,Antibiotics
+26,Peptic ulcer disease,Proton Pump Inhibitors (PPIs)
+27,Peptic ulcer disease,H2 Blockers
+28,Peptic ulcer disease,Antacids
+29,Peptic ulcer disease,Cytoprotective agents
+30,AIDS,Antiretroviral drugs
+31,AIDS,Protease inhibitors
+32,AIDS,Integrase inhibitors
+33,AIDS,Entry inhibitors
+34,AIDS,Fusion inhibitors
+35,Diabetes,Insulin
+36,Diabetes,Metformin
+37,Diabetes,Sulfonylureas
+38,Diabetes,DPP-4 inhibitors
+39,Diabetes,GLP-1 receptor agonists
+40,Gastroenteritis,Antibiotics
+41,Gastroenteritis,Antiemetic drugs
+42,Gastroenteritis,Antidiarrheal drugs
+43,Gastroenteritis,IV fluids
+44,Gastroenteritis,Probiotics
+45,Bronchial Asthma,Bronchodilators
+46,Bronchial Asthma,Inhaled corticosteroids
+47,Bronchial Asthma,Leukotriene modifiers
+48,Bronchial Asthma,Mast cell stabilizers
+49,Bronchial Asthma,Anticholinergics
+50,Hypertension,Antihypertensive medications
+51,Hypertension,Diuretics
+52,Hypertension,Beta-blockers
+53,Hypertension,ACE inhibitors
+54,Hypertension,Calcium channel blockers
+55,Migraine,Analgesics
+56,Migraine,Triptans
+57,Migraine,Ergotamine derivatives
+58,Migraine,Preventive medications
+59,Migraine,Biofeedback
+60,Cervical spondylosis,Pain relievers
+61,Cervical spondylosis,Muscle relaxants
+62,Cervical spondylosis,Physical therapy
+63,Cervical spondylosis,Neck braces
+64,Cervical spondylosis,Corticosteroids
+65,Paralysis (brain hemorrhage),Blood thinners
+66,Paralysis (brain hemorrhage),Clot-dissolving medications
+67,Paralysis (brain hemorrhage),Anticonvulsants
+68,Paralysis (brain hemorrhage),Physical therapy
+69,Paralysis (brain hemorrhage),Occupational therapy
+70,Jaundice,IV fluids
+71,Jaundice,Blood transfusions
+72,Jaundice,Liver transplant
+73,Jaundice,Medications for itching
+74,Jaundice,Antiviral medications
+75,Malaria,Antimalarial drugs
+76,Malaria,Antipyretics
+77,Malaria,Antiemetic drugs
+78,Malaria,IV fluids
+79,Malaria,Blood transfusions
+80,Chicken pox,Antiviral drugs
+81,Chicken pox,Pain relievers
+82,Chicken pox,IV fluids
+83,Chicken pox,Blood transfusions
+84,Chicken pox,Platelet transfusions
+85,Dengue,Antibiotics
+86,Dengue,Antipyretics
+87,Dengue,Analgesics
+88,Dengue,IV fluids
+89,Dengue,Corticosteroids
+90,Typhoid,Vaccination
+91,Typhoid,Antiviral drugs
+92,Typhoid,IV fluids
+93,Typhoid,Blood transfusions
+94,Typhoid,Liver transplant
+95,Hepatitis A,Vaccination
+96,Hepatitis A,Antiviral drugs
+97,Hepatitis A,IV fluids
+98,Hepatitis A,Blood transfusions
+99,Hepatitis A,Liver transplant
+100,Hepatitis B,Antiviral drugs
+101,Hepatitis B,IV fluids
+102,Hepatitis B,Blood transfusions
+103,Hepatitis B,Platelet transfusions
+104,Hepatitis B,Liver transplant
+105,Hepatitis C,Antiviral drugs
+106,Hepatitis C,IV fluids
+107,Hepatitis C,Blood transfusions
+108,Hepatitis C,Platelet transfusions
+109,Hepatitis C,Liver transplant
+110,Hepatitis D,Antiviral drugs
+111,Hepatitis D,IV fluids
+112,Hepatitis D,Blood transfusions
+113,Hepatitis D,Platelet transfusions
+114,Hepatitis D,Liver transplant
+115,Hepatitis E,Alcohol cessation
+116,Hepatitis E,Corticosteroids
+117,Hepatitis E,IV fluids
+118,Hepatitis E,Liver transplant
+119,Hepatitis E,Nutritional support
+120,Alcoholic hepatitis,Antibiotics
+121,Alcoholic hepatitis,Isoniazid
+122,Alcoholic hepatitis,Rifampin
+123,Alcoholic hepatitis,Ethambutol
+124,Alcoholic hepatitis,Pyrazinamide
+125,Tuberculosis,Antipyretics
+126,Tuberculosis,Decongestants
+127,Tuberculosis,Cough suppressants
+128,Tuberculosis,Antihistamines
+129,Tuberculosis,Pain relievers
+130,Common Cold,Antibiotics
+131,Common Cold,Antiviral drugs
+132,Common Cold,Antifungal drugs
+133,Common Cold,IV fluids
+134,Common Cold,Oxygen therapy
+135,Pneumonia,Laxatives
+136,Pneumonia,Pain relievers
+137,Pneumonia,Warm baths
+138,Pneumonia,Cold compresses
+139,Pneumonia,High-fiber diet
+140,Dimorphic hemorrhoids (piles),Nitroglycerin
+141,Dimorphic hemorrhoids (piles),Aspirin
+142,Dimorphic hemorrhoids (piles),Beta-blockers
+143,Dimorphic hemorrhoids (piles),Calcium channel blockers
+144,Dimorphic hemorrhoids (piles),Thrombolytic drugs
+145,Heart attack,Compression stockings
+146,Heart attack,Exercise
+147,Heart attack,Elevating the legs
+148,Heart attack,Sclerotherapy
+149,Heart attack,Laser treatments
+150,Varicose veins,Levothyroxine
+151,Varicose veins,Antithyroid medications
+152,Varicose veins,Beta-blockers
+153,Varicose veins,Radioactive iodine
+154,Varicose veins,Thyroid surgery
+155,Hypothyroidism,Antithyroid medications
+156,Hypothyroidism,Radioactive iodine
+157,Hypothyroidism,Thyroid surgery
+158,Hypothyroidism,Beta-blockers
+159,Hypothyroidism,Corticosteroids
+160,Hyperthyroidism,Glucose tablets
+161,Hyperthyroidism,Candy or juice
+162,Hyperthyroidism,Glucagon injection
+163,Hyperthyroidism,IV dextrose
+164,Hyperthyroidism,Diazoxide
+165,Hypoglycemia,Pain relievers
+166,Hypoglycemia,Exercise
+167,Hypoglycemia,Hot and cold packs
+168,Hypoglycemia,Joint protection
+169,Hypoglycemia,Physical therapy
+170,Osteoarthritis,NSAIDs
+171,Osteoarthritis,Disease-modifying antirheumatic drugs (DMARDs)
+172,Osteoarthritis,Biologics
+173,Osteoarthritis,Corticosteroids
+174,Osteoarthritis,Joint replacement surgery
+175,Arthritis,Vestibular rehabilitation
+176,Arthritis,Canalith repositioning
+177,Arthritis,Medications for nausea
+178,Arthritis,Surgery
+179,Arthritis,Home exercises
+180,(vertigo) Paroxysmal Positional Vertigo,Topical treatments
+181,(vertigo) Paroxysmal Positional Vertigo,Antibiotics
+182,(vertigo) Paroxysmal Positional Vertigo,Oral medications
+183,(vertigo) Paroxysmal Positional Vertigo,Hormonal treatments
+184,(vertigo) Paroxysmal Positional Vertigo,Isotretinoin
+185,Acne,Antibiotics
+186,Acne,Pain relievers
+187,Acne,Antihistamines
+188,Acne,Corticosteroids
+189,Acne,Topical treatments
+190,Urinary tract infection,Antibiotics
+191,Urinary tract infection,Urinary analgesics
+192,Urinary tract infection,Phenazopyridine
+193,Urinary tract infection,Antispasmodics
+194,Urinary tract infection,Probiotics
+195,Psoriasis,Topical treatments
+196,Psoriasis,Phototherapy
+197,Psoriasis,Systemic medications
+198,Psoriasis,Biologics
+199,Psoriasis,Coal tar
+200,Impetigo,Topical antibiotics
+201,Impetigo,Oral antibiotics
+202,Impetigo,Antiseptics
+203,Impetigo,Ointments
+204,Impetigo,Warm compresses

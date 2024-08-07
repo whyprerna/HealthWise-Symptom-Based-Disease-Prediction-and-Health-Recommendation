@@ -1,0 +1,192 @@
+/* Header Colors */
+.navbar {
+    background: linear-gradient(90deg, #009688 0%, #004d40 100%); /* Gradient from teal to dark teal for a fresh look */
+}
+
+  /* Header Styles */
+  .navbar {
+    background-color: #457b9d; /* Muted blue for header */
+  }
+  
+  .navbar-brand {
+    color: #ffffff; /* White text for logo */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff; /* White text for nav links */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #a8dadc; /* Light blue for active link */
+  }
+
+
+/* Typewriter Effect Styles */
+.typewriter {
+    display: inline-block;
+    overflow: hidden; /* Ensures the text is hidden until it animates */
+    white-space: nowrap; /* Prevents text wrapping */
+    animation: typing 4s steps(40, end) forwards; /* Adjust for timing */
+  }
+  
+  .typewriter-cta {
+    display: block; /* Ensures it appears on a new line */
+    overflow: hidden; /* Ensures the text is hidden until it animates */
+    white-space: nowrap; /* Prevents text wrapping */
+    animation: typing-cta 4s steps(40, end) 4s forwards; /* Adjusted for delay and timing */
+  }
+  
+  /* Typewriter Animation Keyframes */
+  @keyframes typing {
+    from { width: 0; } /* Starts with no text visible */
+    to { width: 100%; } /* Expands to show all text */
+  }
+  
+  @keyframes typing-cta {
+    from { width: 0; } /* Starts with no text visible */
+    to { width: 100%; } /* Expands to show all text */
+  }
+  
+
+  
+  /* Welcome Section Styles */
+  .welcome-section {
+      background: linear-gradient(135deg, #a8dadc, #f1faee); /* Soft blue to light gray gradient */
+      padding: 40px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #1d3557; /* Dark blue for text */
+  }
+  
+  .welcome-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #457b9d; /* Muted blue for emphasis */
+      margin-bottom: 20px;
+  }
+  
+  .welcome-intro, .welcome-offers {
+      font-size: 1.2rem;
+      color: #1d3557; /* Dark blue for consistency */
+      margin-bottom: 20px;
+  }
+  
+  .welcome-list {
+      list-style: none;
+      padding-left: 0;
+      text-align: left;
+      display: inline-block;
+      color: #1d3557; /* Dark blue for consistency */
+  }
+  
+  .welcome-list li {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      line-height: 1.6;
+  }
+  
+  .highlight {
+      color: #2a9d8f; /* Soft green for emphasis */
+  }
+  
+  .welcome-cta {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #1d3557; /* Dark blue for consistency */
+      margin-top: 20px;
+  }
+  
+  /* Existing styles */
+  .logo {
+      width: 50px;
+      height: 50px;
+      color: black;
+      margin-top: 0;
+      margin-left: 2px;
+  }
+  
+  .myimg {
+      width: 50px;
+      height: 50px;
+      border: 2px solid #457b9d; /* Muted blue border for logo */
+      border-radius: 25px;
+  }
+  
+  body {
+      padding-top: 56px; /* Adjusted for fixed navbar height */
+      background-color: #f1faee; /* Light background color */
+  }
+  
+  .scrollable-content {
+      max-height: calc(100vh - 56px); /* Subtract navbar height */
+      overflow-y: auto;
+  }
+  
+  .form-container {
+      background: #ffffff; /* White background for forms */
+      color: #1d3557; /* Dark blue text for forms */
+      border-radius: 15px;
+      padding: 40px;
+  }
+  
+  .toggle-button {
+      padding: 10px;
+      margin: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 5px;
+      color: #ffffff; /* White text for buttons */
+      border: none; /* Remove border */
+  }
+/* Recommendations Button Color */
+.btn-danger {
+    background-color: #0b7cba; /* Coral color for a vibrant and attention-grabbing button */
+    border-color: #4279f0; /* Match border color with background for consistency */
+}
+
+.btn-danger:hover {
+    background-color: #ef5826; /* Slightly darker coral on hover for visual feedback */
+    border-color: #eb5c5c; /* Match border color on hover */
+}
+
+/* Toggle Button Colors */
+.toggle-button:nth-child(1) {
+    background: #33c4b3; /* Soft teal */
+}
+.toggle-button:nth-child(1):hover {
+    background: #f80c0c; 
+}
+
+.toggle-button:nth-child(2) {
+    background: #103262; /* Dark navy blue */
+}
+.toggle-button:nth-child(2):hover {
+    background: #f80c0c; 
+}
+
+.toggle-button:nth-child(3) {
+    background: #176668; /* Light teal */
+}
+.toggle-button:nth-child(3):hover {
+    background: #f80c0c; 
+}
+.toggle-button:nth-child(4) {
+    background: #457b9d; /* Muted blue */
+}
+.toggle-button:nth-child(4):hover {
+    background: #f80c0c; 
+}
+.toggle-button:nth-child(5) {
+    background: #78cabe; /* Light gray */
+}
+.toggle-button:nth-child(5):hover {
+    background: #f80c0c; 
+}
+
+.toggle-button:nth-child(6) {
+    background: #7f9a8f; /* Muted green */
+}
+.toggle-button:nth-child(6):hover {
+    background: #f80c0c; 
+}
