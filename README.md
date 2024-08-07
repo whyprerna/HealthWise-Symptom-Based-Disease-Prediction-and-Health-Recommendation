@@ -1,2 +1,0 @@
-# HealthWise-Symptom-Based-Disease-Prediction-and-Health-Recommendation
-HealthWise is a web application designed to help users diagnose potential diseases based on their symptoms and provide personalized health recommendations. Leveraging machine learning and built with Flask and Bootstrap CSS, the application offers smart disease predictions, medication advice, dietary plans, precautions, and workout suggestions.
