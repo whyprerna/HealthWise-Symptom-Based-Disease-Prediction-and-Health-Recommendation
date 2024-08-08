@@ -1,6 +1,6 @@
 # HealthWise: Symptom-Based Disease Prediction and Health Recommendation
 
-![HealthWise](static/HealthWise-screenrecording.mp4)
+![HealthWise](static/screenrecording.gif)
 
 ## Overview
 
