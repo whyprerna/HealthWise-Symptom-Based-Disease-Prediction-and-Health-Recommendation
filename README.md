@@ -4,7 +4,11 @@
 
 ## Overview
 
-**HealthWise** is a Flask-based web application that predicts diseases based on symptoms and provides relevant health recommendations, including diet, medications, and workouts. It utilizes an SVC (Support Vector Classifier) model for disease prediction and is styled using Bootstrap CSS.
+**HealthWise** is a web-based application designed to predict diseases based on symptoms and provide recommendations for medicines, diet, precautions, and workouts. The application is built using the following technologies:
+
+- **SVC (Support Vector Classifier)** for disease prediction and health recommendations.
+- **Flask** for the backend framework.
+- **Bootstrap CSS** and **HTML** for the front-end design.
 
 ## Features
 
@@ -22,3 +26,29 @@ The datasets used for training and prediction are located in the `datasets` fold
    ```bash
    git clone https://github.com/whyprerna/HealthWise-Symptom-Based-Disease-Prediction-and-Health-Recommendation.git
    cd HealthWise-Symptom-Based-Disease-Prediction-and-Health-Recommendation
+2. **Install Required Packages**
+   ```bash
+   pip install flask
+   pip install numpy
+   pip install pandas
+3. **Run the Application**
+   ```bash
+   python main.py
+4. **Open in Browser**
+   Navigate to the following in your browser to start using the app.
+   ```bash
+   http://127.0.0.1:5000
+
+5. **If you are using virtual environment**
+   
+   a. ***Follow Step 1: Clone the repository***
+   
+   b. ***Set Up a Virtual Environment:***
+   
+         python -m venv venv
+         source(path) venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+   c. ***Follow Step 2, 3 and 4***
+
+## All set up and ready to go! Dive into your HealthWise app and explore the powerful features for symptom-based disease prediction and personalized health recommendations. 
+
